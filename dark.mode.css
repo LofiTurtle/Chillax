@@ -8,8 +8,8 @@
 /****ADDONS****/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url("https://lofiturtle.github.io/Chillax/ChillaxTag.css");
-@import url("https://lofiturtle.github.io/Chillax/Addons/SettingsModalEdited.css");
+@import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/SettingsModalEdited.css");
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
 @import url("https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css");
 @import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
@@ -21,7 +21,7 @@
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
 /*home tab fix*/
-.forumOrHome__75784{
+.forumOrHome__8b95a{
   background: transparent;
 }
 
@@ -65,8 +65,10 @@
 }
 
 /* transparent role selection / browse channels / members page background */
-.container__11d72,
-.container__10dc7,
+.container__26baa,
+.container__03ec9,
+.scrollerContainer_dda72c,
+.container__6b2e5,
 .container__7590f {
   background-color: transparent !important;
 }
@@ -115,17 +117,17 @@
 }
 
 /*code block*/
-.theme-dark .scrollbar_d66c5e {
+.theme-dark .codeContainer__49b46 .scrollbar_b61b2b {
   background-color: rgba(0, 0, 0, 0.377) !important;
 }
 
 /*menu blur*/
-.theme-dark .menu_dc52c6 {
+.theme-dark .menu__088f7 {
   /*Main class*/
   background-color: rgba(0, 0, 0, 0.3);
 }
-.menu_dc52c6::before,
-.menu_dc52c6.submenu-1apzyU::before {
+.menu__088f7::before,
+.menu__088f7.submenu-1apzyU::before {
   /*Blurs the menu*/
   content: "";
   position: absolute;
@@ -137,7 +139,7 @@
   border-radius: 5px;
 }
 /* Fix blur in nested floating menu */
-.submenu_acf564.menu_dc52c6::before {
+.submenu_acf564.menu__088f7::before {
   width: calc(100% - 16px);
 }
 
@@ -184,7 +186,7 @@
 }
 
 /*forum channel*/
-.container-3wLKDe {
+.container_b92032 {
   background: transparent !important;
 }
 
@@ -214,7 +216,7 @@
 }
 
 /* button design*/
-.theme-dark .lookFilled__19298 {
+.theme-dark .lookFilled__950dd {
   border-radius: 45px;
   background: rgb(36, 36, 36) !important;
   color: rgb(255, 255, 255) !important;
@@ -223,7 +225,7 @@
   font-size: 12px;
   transition: 0.2s;
 }
-.theme-dark .lookFilled__19298:hover {
+.theme-dark .lookFilled__950dd:hover {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
   background: rgb(0, 0, 0) !important;
   transition: 0.1s;
@@ -242,39 +244,40 @@
 
 /*chatbox recolour*/
 .input-2g-os5,
-.scrollableContainer__33e06{
+.scrollableContainer_ff917f{
   background-color: transparent!important;
   transition: background-color 0.2s ease, border-color 0.2s ease;
   outline: none;
 }
-.placeholder_e68c63.slateTextArea__0661c.fontSize16Padding__48818{
+/* Updated the place holder class only other maybe needs to be updated*/
+.placeholder_dec8c7.slateTextArea__0661c.fontSize16Padding__48818{
   color: transparent!important;
 }
 
 .theme-dark .input-2g-os5:hover,
-.theme-dark .scrollableContainer__33e06:hover {
+.theme-dark .scrollableContainer_ff917f:hover {
   background-color: #00000023!important;
 }
 
 /* attachedBars is the reply bar */
 .theme-dark .input-2g-os5:focus-within,
-.theme-dark .scrollableContainer__33e06:focus-within {
+.theme-dark .scrollableContainer_ff917f:focus-within {
   background-color: #181a1d!important;
   box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2);
 }
 .message__80c10 {
   border-radius: 8px !important;
 }
-.mentioned__58017  {
+.mentioned_fa6fd2  {
   border-radius: 0 8px 8px 0!important
 }
 
 /*Textbox Text*/
-.theme-dark .placeholder_e68c63 {
+.theme-dark .placeholder_dec8c7 {
   visibility: hidden !important;
 }
 
-.theme-dark .placeholder_e68c63::before {
+.theme-dark .placeholder_dec8c7::before {
   content: "Life is so much easier when you just take a moment to chill";
   color: rgba(255, 255, 255, 0.2);
   font-family: "Poppins";
@@ -302,13 +305,14 @@ span[class="inner-26JK4f"]>* {
 }
 
 /* member list and friend DMs hover effect */
-.clickable__17ccb:hover,
-.interactive-1vLZ_I:hover {
+.clickable__03a29:hover,
+.interactive__0786a:hover {
   transform: scale(1.1);
   transition: all 0.2s;
 }
-.clickable__17ccb,
-.interactive-1vLZ_I {
+
+.clickable__03a29,
+.interactive__0786a {
   transition: all 0.3s;
 }
 
@@ -578,7 +582,7 @@ span[class="inner-26JK4f"]>* {
   opacity: 0;
   transform: scale(0.1, 1);
 }
-.theme-dark .wrapper__7bcde:hover {
+.theme-dark .wrapper__612a5:hover {
   animation: wave-text 1s ease-in-out infinite;
 }
 
@@ -723,17 +727,17 @@ span:not(.spinner-item) {
 }
 
 /*custom mentioned colour*/
-.theme-dark .mentioned__58017:before {
+.theme-dark .mentioned_fa6fd2:before {
   background: linear-gradient(135deg, #3b3b3b, var(--accentcolorV2)) !important;
 }
-.theme-dark .mentioned__58017 {
+.theme-dark .mentioned_fa6fd2 {
   background: linear-gradient(
     60deg,
     rgba(41, 41, 41, 0.3),
     rgba(var(--accentcolor), 0.9)
   ) !important;
 }
-.theme-dark .mentioned__58017:hover {
+.theme-dark .mentioned_fa6fd2:hover {
   background: linear-gradient(
     60deg,
     rgba(32, 32, 32, 0.5),
@@ -793,15 +797,15 @@ span:not(.spinner-item) {
 .search_ac353c:not(.open_d3ab4e):hover .icon_f50f05 {
   color: var(--text-muted);
 }
-.container__11d72.themed_b152d4 .search__07df0 {
+.container__26baa.themed_b152d4 .search__07df0 {
   order: -1 !important;
 }
 
 /*channel resize*/
-.sidebar_ded4b5 .name__8d1ec {
+.sidebar_e031be .name__8d1ec {
   font-size: 14px;
 }
-.sidebar_ded4b5 .icon_eff5d4 {
+.sidebar_e031be .icon_eff5d4 {
   width: 16px;
   height: 16px;
 }
@@ -859,12 +863,12 @@ span:not(.spinner-item) {
 }
 
 /*user setting icon spin*/
-.button__4f306:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
+.button__581d0:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
   animation: Settings 1s;
   transform-origin: center;
 }
 
-.button__4f306:last-child path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
+.button__581d0:last-child path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
   animation: Settings2 1s;
   transform-origin: center;
 }
@@ -894,7 +898,7 @@ span:not(.spinner-item) {
   display: none;
   right: 50%;
 }
-.unreadPill__715fc {
+.unreadPill__1b4fa {
   background-color: var(--background-shading);
   color: #fb5454;
   font-size: 12px;
@@ -903,7 +907,7 @@ span:not(.spinner-item) {
   left: 50%;
   width: 30px;
 }
-.isUnread__6f880 {
+.isUnread_de09f5 {
   --divider-color: rgb(237, 0, 255);
   border: none;
   background: linear-gradient(90deg,
@@ -914,7 +918,7 @@ span:not(.spinner-item) {
       rgba(254, 0, 255, 1) 100%);
   height: 1px;
 }
-.unreadPill__715fc {
+.unreadPill__1b4fa {
   top: -6px;
 }
 
@@ -1481,7 +1485,7 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
 }
 
 /* Settings/Deafen/Mute Buttons Animated */
-.button__4f306:hover .contents-3ca1mk {
+.button__581d0:hover .contents-3ca1mk {
   animation: UserModalButtons 0.5s normal ease;
 }
 
@@ -1510,7 +1514,7 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
 }
 
 /*disable and delete account button design*/
-.theme-dark .children_b15c64 .colorRed_d6b062 {
+.theme-dark .button__581d0 .colorRed__5a617 {
   width: 140px;
   height: 45px;
   font-family: "Roboto" !important;
@@ -1526,21 +1530,21 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
   cursor: pointer;
   outline: none;
 }
-.theme-dark .children_b15c64 .colorRed_d6b062:hover {
+.theme-dark .button__581d0 .colorRed__5a617:hover {
   background-color: rgb(229, 46, 46) !important;
   box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
   color: rgb(37, 37, 37) !important;
   transform: translateY(-7px);
 }
-.theme-dark .children_b15c64 .colorRed_d6b062 {
+.theme-dark .button__581d0 .colorRed__5a617 {
   font-size: 0px !important;
 }
-.theme-dark .children_b15c64 .disableButton__61514.colorRed_d6b062::before {
+.theme-dark .button__581d0 .disableButton__09342.colorRed__5a617::before {
   content: "Disable";
   position: absolute;
   font-size: 11px !important;
 }
-.theme-dark .children_b15c64 .lookOutlined__46d54.colorRed_d6b062::before {
+.theme-dark .button__581d0 .lookOutlined__014b5.colorRed__5a617::before {
   content: "Delete";
   position: absolute;
   font-size: 11px !important;
@@ -1749,38 +1753,38 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
   left: 0;
   right: 0;
 }
-.container_ca50b9{
-background: transparent!important;
+.container_debb33 {
+  background: transparent!important;
 }
-.sidebar_ded4b5 {
+.sidebar_e031be {
   background-color: transparent;
   position: relative;
   overflow: hidden;
 }
-.theme-dark .sidebar_ded4b5 .content__23cab:after{
-content: 'this big gap is for the floating user controls, so sry if it looks ugly';
-font-size: 13px;
-color: rgba(255, 255, 255, 0.03);
-text-align: center;
-text-shadow: 0 0 15px #000;
-margin-top: 50px;
-height: 340px;
-display: block;
+.theme-dark .sidebar_e031be .container__7e23c:after {
+  content: 'this big gap is for the floating user controls, so sry if it looks ugly';
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.03);
+  text-align: center;
+  text-shadow: 0 0 15px #000;
+  margin-top: 50px;
+  height: 340px;
+  display: block;
 }
-.panels__58331 > .container_ca50b9 .flex_f5fbb7 > :not(:last-child) {
+.panels__58331 > .container_debb33 .flex_f18b02 > :not(:last-child) {
   opacity: 0% !important;
   width: 50px;
   transition: all 0.3s;
 }
-.theme-dark .panels__58331 > .container_ca50b9:hover .flex_f5fbb7 > :not(:last-child) {
+.theme-dark .panels__58331 > .container_debb33:hover .flex_f18b02 > :not(:last-child) {
   opacity: 100% !important;
   width: 40px;
   margin-left: 10px;
 }
-.button__4f306[aria-label="User Settings"] {
+.button__581d0[aria-label="User Settings"] {
   margin-left: 10px;
 }
-.container-6sXIoE .alignStretch_e239ef.flex__909d4 {
+.container_debb33 .alignStretch__2d62d.alignStretch__2d62d {
   max-width: 190px;
   min-width: 190px;
 }
@@ -1803,12 +1807,12 @@ display: block;
 }
 
 /* Avatar in bottom left */
-.avatarWrapper_ba5175 {
+.avatarWrapper__500a6 {
   max-width: 36px;
   min-width: 36px;
   transition: 0.3s;
 }
-.avatarWrapper_ba5175:hover {
+.avatarWrapper__500a6:hover {
   max-width: 207px;
   min-width: 207px;
   transition: 0.3s;
@@ -2099,7 +2103,7 @@ transform: translateY(2px);
 }
 
 /* Un-hide unread divider with date */
-.isUnread__6f880 {
+.isUnread_de09f5 {
   display: flex !important;
 }
 
@@ -2112,8 +2116,8 @@ transform: translateY(2px);
 .image__0cdbe {
   content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
 }
-.flex_f5fbb7.vertical__1e37a.gatedContent_ba8306
-  > .flex_f5fbb7.flex__909d4.horizontal__992f6.horizontal__65889.flex__909d4.directionRow__2bb0b.justifyCenter__4080c.alignCenter__84269.noWrap__5c413 {
+.flex_f18b02.vertical__1e37a.gatedContent_ba8306
+  > .flex_f18b02.flex__909d4.horizontal__992f6.horizontal__65889.flex__909d4.directionRow__2bb0b.justifyCenter__4080c.alignCenter__84269.noWrap__5c413 {
   background: transparent !important;
 }
 
@@ -2705,7 +2709,7 @@ margin-bottom: 25px;
 div[class="fieldList_aab0de"] > div[class*="field__9e8e2"] {
 width: 95.5%;
 }
-div[class="field__9e8e2"] > button[aria-label="Edit username"][class="fieldButton_a93f59 button_afdfd9 lookFilled__19298 colorPrimary__6ed40 sizeSmall__71a98 grow__4c8a4"] {
+div[class="field__9e8e2"] > button[aria-label="Edit username"][class="fieldButton_a93f59 button_afdfd9 lookFilled__950dd colorPrimary__6ed40 sizeSmall__71a98 grow__4c8a4"] {
 width: 90%;
 position: absolute;
 bottom: -1px;
@@ -2811,7 +2815,7 @@ transform-origin: bottom center;
 }
 
 /*channel border radius*/
-.wrapper__7bcde {
+.wrapper__612a5 {
   border-radius: 8px!important;
 }
 /*user profiles tweak*/
@@ -3021,13 +3025,13 @@ opacity: 01!important;
 }
 
 /*forum thread overlap fix*/
-.chatTarget__0ea5e.container_def45c.floating_f021e2{
+.chatTarget_f14a03.container__694a1.floating__8f631 {
   background: rgba(26, 26, 26, 0.9)!important;
   box-shadow: 0 0 15px rgb(0, 0, 0);
 }
 
 /*forum fix*/
-.container_b181b6 {
+.container_b92032 {
   background: transparent;
 }
 
@@ -3038,13 +3042,13 @@ opacity: 01!important;
 .theme-dark .container__99b06.isOpen__8593d {
   background-color: #181a1d70;
 }
-.forumOrHome__75784 {
+.forumOrHome__8b95a {
   background: transparent!important;
 }
 .children__32014:after{
   background: transparent!important;
 }
-.flex_fc800b .scrollbar_d66c5e {
+.flex_fc800b .scrollbar_b61b2b {
   background-color: transparent!important;
 }
 
@@ -3143,5 +3147,35 @@ opacity: 01!important;
 }
 /* Remove weird shadow */
 .option_b5597b:after {
+  background: transparent !important;
+}
+
+/* Nitro and discord shop transparent background */
+.shop_b31ed2 {
+  background: transparent !important
+}
+
+.applicationStore__444b9 {
+  background: transparent !important;
+}
+
+/* The pop up thingy when you press `ctr` + `k` or when you click `find a conversation`*/
+.input__2a648 {
+  background: transparent !important;
+}
+
+/* Semi Transparent emoji, gifs and sticker picker */
+.drawerSizingWrapper_e20f1f {
+  background: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 15px !important;
+}
+
+.inspector__80c84.inspector__7b643 {
+  background: rgba(var(--accentcolor)) !important;
+  border-radius: 25px;
+}
+
+/* VC Call BG Transparent Dark Mode*/
+.callContainer__1477d.theme-dark {
   background: transparent !important;
 }
