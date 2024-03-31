@@ -89,7 +89,7 @@ div[class="field__9e8e2"] > button[aria-label="Edit username"][class="fieldButto
 }
 
 /* Change the message in the messagebox when you're restricted from sending messages in that channel. */
-.innerDisabled__37f59 .placeholder_e68c63::before {
+.innerDisabled__1d121 .placeholder_dec8c7::before {
   content: "Unfortunately, you can't chill in this channel.";
 }
 
