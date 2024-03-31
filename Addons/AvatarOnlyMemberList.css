@@ -42,15 +42,15 @@ div:not(:hover) > .members__573eb > div {
 }
 
 /* Fix the member count addon (vencord) */
-.members__573eb:not(:hover) > #vc-membercount > div > span:first-child {
-    display: none !important;
+.members__573eb:not(:hover) > .vc-membercount-widget > div > span:first-child {
+  display: none !important;
 }
 
-.members__573eb:not(:hover) > #vc-membercount > div {
-    box-sizing: border-box !important;
-    flex: 1 0 100%;
+.members__573eb:not(:hover) > .vc-membercount-widget > div {
+  box-sizing: border-box !important;
+  flex: 1 0 100%;
 }
 
-.members__573eb:not(:hover) > #vc-membercount {
-    flex-wrap: wrap;
+.members__573eb:not(:hover) > .vc-membercount-widget {
+  flex-wrap: wrap;
 }
