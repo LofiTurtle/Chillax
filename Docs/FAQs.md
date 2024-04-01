@@ -279,7 +279,7 @@ Remove it to get back default emojis:
 
 ```css
   /* hide message in the sidebar */
-.theme-dark .sidebar_ded4b5 .content__23cab:after {
+.theme-dark .sidebar_e031be .container__7e23c:after {
     color: rgba(255, 255, 255, 0) !important;
     text-shadow: none !important;
 }
@@ -323,16 +323,16 @@ Before applying the theme:
 
   ```css
         /* Remove the phone indicator beside avatar */
-        foreignObject[mask="url(#svg-mask-avatar-decoration-status-mobile-80)"]::after {
+        foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
             visibility: hidden !important;
         }
 
-        #app-mount .wrapper_edb6e0 foreignObject[mask*=mobile][width="80"]:after {
-            display: none !important;
+        #app-mount .wrapper__3ed10 foreignObject[mask*=mobile]:after {
+            display: none;
         }
 
-        #app-mount .wrapper_edb6e0 foreignObject[mask*=mobile]:after {
-            display: none !important;
+        #app-mount .wrapper__3ed10 foreignObject[mask*=mobile][width="80"]:after {
+            display: none;
         }
    ```
 

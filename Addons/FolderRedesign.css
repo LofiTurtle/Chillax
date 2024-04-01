@@ -1,46 +1,59 @@
-/*cleaner folder group icon*/
-.folderIconWrapper-1oRIZr{
-    background: url("https://i.imgur.com/IWDKX4z.png");
-    background-repeat:no-repeat;
-    background-blend-mode:overlay;
-    background-position:center;
+/*!* Below code portion is to be review by WQ *!*/
+
+/*!*cleaner folder group icon*!*/
+/*.folderIconWrapper-1oRIZr {*/
+/*    background: url("https://i.imgur.com/IWDKX4z.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-blend-mode: overlay;*/
+/*    background-position: center;*/
+/*}*/
+
+/*.expandedFolderIconWrapper-3RwQpD,*/
+/*.closedFolderIconWrapper-3tRb2d {*/
+/*    display: none;*/
+/*}*/
+
+/*.folderIconWrapper-1oRIZr:not([style=""])::before {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    width: 18px;*/
+/*    height: 18px;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    margin: auto;*/
+/*    background-color: inherit;*/
+/*    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;*/
+/*    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;*/
+/*    transform: scale(1.3335);*/
+/*    filter: brightness(1.5) saturate(1.5);*/
+/*}*/
+
+/* End of Code Portion */
+
+
+.closedFolderIconWrapper__722d5 {
+    display: none;
 }
-.expandedFolderIconWrapper-3RwQpD,
-.closedFolderIconWrapper-3tRb2d{display:none;}
-.folderIconWrapper-1oRIZr:not([style=""])::before {
+
+.expandedFolderIconWrapper__324c1 {
+    transform: none !important;
+}
+
+.folderIconWrapper__11165:not([style=""]):before, .folderIconWrapper__11165:not([style=""]):after {
     position: absolute;
     content: "";
-    width: 18px;
-    height: 18px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: 24px;
+    height: 24px;
+    inset: 0;
     margin: auto;
     background-color: inherit;
-    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
-    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
-    transform: scale(1.3335);
-    filter: brightness(1.5) saturate(1.5);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+    filter: brightness(1.2) saturate(1.1);
 }
-.closedFolderIconWrapper__7321f {
-display: none;
-}
-.expandedFolderIconWrapper__458cf {
-transform: none !important;
-}
-.folderIconWrapper__72239:not([style=""]):before, .folderIconWrapper__72239:not([style=""]):after {
-position: absolute;
-content: "";
-width: 24px;
-height: 24px;
-inset: 0;
-margin: auto;
-background-color: inherit;
--webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z'/%3E%3C/svg%3E");
--webkit-mask-repeat: no-repeat;
-filter: brightness(1.2) saturate(1.1);
-}
-.theme-light .folderIconWrapper__72239 {
-filter: brightness(0.5) saturate(3);
+
+.theme-light .folderIconWrapper__11165 {
+    filter: brightness(0.5) saturate(3);
 }
