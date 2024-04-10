@@ -4,10 +4,10 @@
   color: #d93530 !important;
 }
 
-/* hide message in the sidebar */
-.theme-dark .sidebar_e031be .container__7e23c:after {
-  color: rgba(255, 255, 255, 0) !important;
-  text-shadow: none !important;
+/* hide message in the sidebar when using dark mode */
+  .theme-dark .sidebar_e031be .content__690c5:after {
+    color: rgba(255, 255, 255, 0) !important;
+    text-shadow: none !important;
 }
 
 /* realign background image */
@@ -74,4 +74,36 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
     rgba(var(--accentcolor), 0.2),
     transparent
   );
+}
+
+/* Remove outer margin & fix buttons */
+:root.theme-dark {
+  --window-margin: 0px;
+  --window-border-radius: 0px;
+}
+
+.theme-dark .winButtonClose__6396d,
+.theme-dark .winButtonMinMax_caf9c8:nth-child(3),
+.theme-dark .winButtonMinMax_caf9c8:nth-child(2n),
+.theme-dark .winButtonClose__6396d:hover,
+.theme-dark .winButtonMinMax_caf9c8:nth-child(3):hover,
+.theme-dark .winButtonMinMax_caf9c8:nth-child(2n):hover {
+  top: -4px;
+  right: 0px;
+  padding: 0px;
+  padding-inline: 10px;
+  margin: 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.theme-dark .winButtonMinMax_caf9c8:nth-child(2n) {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.theme-dark .wordmark__5b8c9::before {
+  border-radius: 5px;
+  border-left: 0px;
+  padding: 5px 11px 6px 10px;
+  margin-left: -14px;
+  margin-top: -5px;
 }
