@@ -78,8 +78,8 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
 
 /* Remove outer margin & fix buttons */
 :root.theme-dark {
-  --window-margin: 0px;
-  --window-border-radius: 0px;
+  --window-margin: 0px !important;
+  --window-border-radius: 0px !important;
 }
 
 .theme-dark .winButtonClose__6396d,
