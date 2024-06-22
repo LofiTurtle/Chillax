@@ -82,12 +82,12 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
   --window-border-radius: 0px !important;
 }
 
-.theme-dark .winButtonClose__6396d,
-.theme-dark .winButtonMinMax_caf9c8:nth-child(3),
-.theme-dark .winButtonMinMax_caf9c8:nth-child(2n),
-.theme-dark .winButtonClose__6396d:hover,
-.theme-dark .winButtonMinMax_caf9c8:nth-child(3):hover,
-.theme-dark .winButtonMinMax_caf9c8:nth-child(2n):hover {
+.theme-dark .winButtonClose_a934d8,
+.theme-dark .winButtonMinMax_a934d8:nth-child(3),
+.theme-dark .winButtonMinMax_a934d8:nth-child(2n),
+.theme-dark .winButtonClose_a934d8:hover,
+.theme-dark .winButtonMinMax_a934d8:nth-child(3):hover,
+.theme-dark .winButtonMinMax_a934d8:nth-child(2n):hover {
   top: -4px;
   right: 0px;
   padding: 0px;
@@ -96,11 +96,11 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
   border-radius: 0px 0px 0px 0px;
 }
 
-.theme-dark .winButtonMinMax_caf9c8:nth-child(2n) {
+.theme-dark .winButtonMinMax_a934d8:nth-child(2n) {
   border-radius: 5px 0px 0px 5px;
 }
 
-.theme-dark .wordmark__5b8c9::before {
+.theme-dark .wordmark_a934d8::before {
   border-radius: 5px;
   border-left: 0px;
   padding: 5px 11px 6px 10px;
