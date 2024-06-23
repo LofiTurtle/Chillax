@@ -5,13 +5,13 @@
 }
 
 /* hide message in the sidebar when using dark mode */
-  .theme-dark .sidebar_e031be .content__690c5:after {
+  .theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
     color: rgba(255, 255, 255, 0) !important;
     text-shadow: none !important;
 }
 
 /* realign background image */
-.bg__12180 {
+.bg_d4b6c5 {
   background-position: var(--background-position, right);
 }
 
@@ -36,7 +36,7 @@ button[id="super-reaction-picker-tab"] {
 }
 
 /* Custom font for channel names */
-.containerDefault_ae2ea4 {
+.containerDefault_f6f816 {
   font-family: var(--font-name);
 }
 
@@ -45,18 +45,18 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
   visibility: hidden !important;
 }
 
-#app-mount .wrapper__3ed10 foreignObject[mask*=mobile]:after {
+#app-mount .wrapper_c51b4e foreignObject[mask*=mobile]:after {
   display: none;
 }
 
 /* Reset groupchat name font */
-.input__723c9 {
+.input_f8b740 {
   font-family: var(--font-name) !important;
   font-weight: inherit !important;
 }
 
 /* Change the message in the messagebox when you're restricted from sending messages in that channel. */
-.innerDisabled__1d121 .placeholder_dec8c7::before {
+.innerDisabled_d0696b .placeholder_a552a6::before {
   content: "Unfortunately, you can't chill in this channel.";
 }
 
@@ -66,7 +66,7 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
 }
 
 /* Make unread DM's highlighted based on accent color */
-.link__3a950:has(.highlighted_e2e5df), .modeUnreadImportant__35358:has(.mentionsBadge__3d019) {
+.link_c91bad:has(.highlighted_f9647d), .modeUnreadImportant_d8bfb3:has(.mentionsBadge_e2a798) {
   border-left: 2px solid rgba(var(--accentcolor), 0.8);
   background: linear-gradient(
     90deg,
