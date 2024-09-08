@@ -27,11 +27,13 @@
 
 /*removable addons*/
 /* @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css"); */
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
-@import url('https://nyri4.github.io/Discolored/main.css');
-@import url("https://lofiturtle.github.io/Chillax/Addons/IconPackEdited.css");
-@import url("https://lofiturtle.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
-@import url("https://lofiturtle.github.io/Chillax/Addons/FolderRedesign.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
 
 /*additional addons*/
 /*(remove the both * to use)*/
@@ -121,6 +123,22 @@
   --themedarksettingsmodalbackground: rgb(51, 49, 53);
   --settingsmodalwidth: 960px;
   --settingsmodalheight: 80vh;
+
+  /* avatar only member list */
+  --memberlist-border-radius: 25px; /* can be in `px`, `rem`, `em` */
+    
+  /* placeholder texts/values */
+  /* input fields */
+  --chillax-input-field: "Life is so much easier when you just take a moment to chill";
+  /* input fields  when the channel is locked*/
+  --chillax-input-field-locked: "Life is so much easier when you just take a moment to chill";
+  /* typing indicator: when a single person is typing */
+  --chillax-input-typing-indicator-one-person: "is smashing some buttons";
+  /* typing indicator: when more than one person is typing */
+  --chillax-input-typing-indicator-many-person: "are smashing some buttons";
+  
+  /* scroller (by default transparent) */
+  --chillax-scroller-color: transparent; /* change `transparent` to some other hex color to make it visible */
 }
 
 /*discord transparency*/
@@ -168,29 +186,31 @@
 }
 
 /*friends grid banner colour*/
-.theme-dark {
+/* .theme-dark {
   --FG-cards-banner-background: transparent !important;
-}
+} */
 
-.theme-light {
+/* .theme-light {
   --FG-cards-banner-background: transparent !important;
-}
+} */
 
 
 
 
 /*Permissions*/
 /*
--You do not have the rights to use our theme name Chillax™ on other projects 
--You do not have the rights to remove our theme watermark in the theme
--You do not have the rights to change this theme author name to anyone
+- You do not have the rights to use our theme name Chillax™ on other projects
+- You do not have the rights to remove our theme watermark in the theme
+- You do not have the rights to change this theme author/dev/maintainer name to anyone
 */
 
 /*credits*/
 /*
 ========================= Chillax Squad =========================
- Wq                                       Author
- Demented_Elmo                            Co-Author
+ Wq                                       Owner & Dev
+ LofiTurtle                               Dev & Maintainer
+ Inmoresentum                             Dev & Maintainer
+ Demented_Elmo                            Dev
 =================================================================
  Embeds                                   by Alexis WyvernZu
  Active Now CSS                           by Cedrick
