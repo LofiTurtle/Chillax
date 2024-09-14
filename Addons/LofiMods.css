@@ -88,22 +88,22 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
 .theme-dark .winButtonClose_a934d8:hover,
 .theme-dark .winButtonMinMax_a934d8:nth-child(3):hover,
 .theme-dark .winButtonMinMax_a934d8:nth-child(2n):hover {
-  top: -4px;
-  right: 0px;
-  padding: 0px;
-  padding-inline: 10px;
-  margin: 0px;
-  border-radius: 0px 0px 0px 0px;
+  top: -4px !important;
+  right: 0px !important;
+  padding: 0px !important;
+  padding-inline: 10px !important;
+  margin: 0px !important;
+  border-radius: 0px 0px 0px 0px !important;
 }
 
 .theme-dark .winButtonMinMax_a934d8:nth-child(2n) {
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0px 0px 5px !important;
 }
 
 .theme-dark .wordmark_a934d8::before {
-  border-radius: 5px;
-  border-left: 0px;
-  padding: 5px 11px 6px 10px;
-  margin-left: -14px;
-  margin-top: -5px;
+  border-radius: 5px !important;
+  border-left: 0px !important;
+  padding: 5px 11px 6px 10px !important;
+  margin-left: -14px !important;
+  margin-top: -5px !important;
 }
