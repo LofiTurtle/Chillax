@@ -107,3 +107,100 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
   margin-left: -14px !important;
   margin-top: -5px !important;
 }
+
+/* Hide nitro section of friends list */
+.link_c91bad[href="/store"] {
+    display: none;
+}
+
+
+/* Hide shop section of friends list */
+.link_c91bad[href="/shop"] {
+    display: none;
+}
+
+
+/* Hide "Quest" advertisements */
+.mask_c721cc {
+    display: none;
+}
+
+
+:root.theme-dark {
+    --window-blur: 8px;
+}
+
+:root {
+    --memberlist-border-radius: 0px;
+}
+
+
+/* hacky fullscreen screenshare */
+.videoFrame_f8a4f3 {
+    transform: scale(1.19) translateY(50px);
+}
+
+.participantsWrapperAnimated_f8a4f3 {
+    transition: transform 0.15s ease-in-out;
+}
+
+.root_f8a4f3:not(:hover) .participantsWrapperAnimated_f8a4f3 {
+    transform: translateY(300px) !important;
+}
+
+
+.hasStackedBar_bdf0de {
+    border-radius: 8px;
+}
+
+html.theme-dark .stackedBars_bdf0de {
+    padding: 10px;
+    margin: 20px 20px 10px 20px;
+    background: #181a1d;
+    border-radius: var(--window-border-radius)
+}
+
+
+/* Glowing unread divider */
+.isUnread_c2654d::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+    width: calc(100% - 0.5rem);
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        rgba(237, 0, 255, 1) 0%,
+        #fb5454 25%,
+        rgba(0, 0, 0, 0) 50%,
+        #fb5454 75%,
+        rgba(254, 0, 255, 1) 100%
+    );
+    filter: blur(8px);
+}
+.isUnread_c2654d::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+    width: calc(100% - 0.5rem);
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        rgba(237, 0, 255, 1) 0%,
+        #fb5454 25%,
+        rgba(0, 0, 0, 0) 50%,
+        #fb5454 75%,
+        rgba(254, 0, 255, 1) 100%
+    );
+}
+
+
+/* Hide invisible scrollbars */
+.scroller_c43953 {
+    width: calc(100% + 8px);
+}
+.scroller_e2e187 {
+    width: calc(100% + 16px);
+}
