@@ -5,13 +5,13 @@
 }
 
 /* hide message in the sidebar when using dark mode */
-  .theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
+  .theme-dark .sidebar_c48ade .content__99f8c:after {
     color: rgba(255, 255, 255, 0) !important;
     text-shadow: none !important;
 }
 
 /* realign background image */
-.bg_d4b6c5 {
+.bg__960e4 {
   background-position: var(--background-position, right);
 }
 
@@ -36,7 +36,7 @@ button[id="super-reaction-picker-tab"] {
 }
 
 /* Custom font for channel names */
-.containerDefault_f6f816 {
+.containerDefault_c69b6d {
   font-family: var(--font-name);
 }
 
@@ -45,18 +45,18 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
   visibility: hidden !important;
 }
 
-#app-mount .wrapper_c51b4e foreignObject[mask*=mobile]:after {
+#app-mount .wrapper__44b0c foreignObject[mask*=mobile]:after {
   display: none;
 }
 
 /* Reset groupchat name font */
-.input_f8b740 {
+.input__4f074 {
   font-family: var(--font-name) !important;
   font-weight: inherit !important;
 }
 
 /* Change the message in the messagebox when you're restricted from sending messages in that channel. */
-.innerDisabled_d0696b .placeholder_a552a6::before {
+.innerDisabled_d0696b .placeholder__1b31f::before {
   content: "Unfortunately, you can't chill in this channel.";
 }
 
@@ -66,7 +66,7 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
 }
 
 /* Make unread DM's highlighted based on accent color */
-.link_c91bad:has(.highlighted_f9647d), .modeUnreadImportant_d8bfb3:has(.mentionsBadge_e2a798) {
+.link__972a0:has(.highlighted__20a53), .modeUnreadImportant__2ea32:has(.mentionsBadge__933a1) {
   border-left: 2px solid rgba(var(--accentcolor), 0.8);
   background: linear-gradient(
     90deg,
@@ -82,12 +82,12 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
   --window-border-radius: 0px !important;
 }
 
-.theme-dark .winButtonClose_a934d8,
-.theme-dark .winButtonMinMax_a934d8:nth-child(3),
-.theme-dark .winButtonMinMax_a934d8:nth-child(2n),
-.theme-dark .winButtonClose_a934d8:hover,
-.theme-dark .winButtonMinMax_a934d8:nth-child(3):hover,
-.theme-dark .winButtonMinMax_a934d8:nth-child(2n):hover {
+.theme-dark .winButtonClose__421ed,
+.theme-dark .winButtonMinMax__421ed:nth-child(3),
+.theme-dark .winButtonMinMax__421ed:nth-child(2n),
+.theme-dark .winButtonClose__421ed:hover,
+.theme-dark .winButtonMinMax__421ed:nth-child(3):hover,
+.theme-dark .winButtonMinMax__421ed:nth-child(2n):hover {
   top: -4px !important;
   right: 0px !important;
   padding: 0px !important;
@@ -96,11 +96,11 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
   border-radius: 0px 0px 0px 0px !important;
 }
 
-.theme-dark .winButtonMinMax_a934d8:nth-child(2n) {
+.theme-dark .winButtonMinMax__421ed:nth-child(2n) {
   border-radius: 5px 0px 0px 5px !important;
 }
 
-.theme-dark .wordmark_a934d8::before {
+.theme-dark .wordmark__421ed::before {
   border-radius: 5px !important;
   border-left: 0px !important;
   padding: 5px 11px 6px 10px !important;
@@ -109,19 +109,19 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
 }
 
 /* Hide nitro section of friends list */
-.link_c91bad[href="/store"] {
+.link__972a0[href="/store"] {
     display: none;
 }
 
 
 /* Hide shop section of friends list */
-.link_c91bad[href="/shop"] {
+.link__972a0[href="/shop"] {
     display: none;
 }
 
 
 /* Hide "Quest" advertisements */
-.mask_c721cc {
+.mask__0d616 {
     display: none;
 }
 
@@ -136,24 +136,24 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
 
 
 /* hacky fullscreen screenshare */
-.videoFrame_f8a4f3 {
+.videoFrame__6981d {
     transform: scale(1.19) translateY(50px);
 }
 
-.participantsWrapperAnimated_f8a4f3 {
+.participantsWrapperAnimated__6981d {
     transition: transform 0.15s ease-in-out;
 }
 
-.root_f8a4f3:not(:hover) .participantsWrapperAnimated_f8a4f3 {
+.root__6981d:not(:hover) .participantsWrapperAnimated__6981d {
     transform: translateY(300px) !important;
 }
 
 
-.hasStackedBar_bdf0de {
+.hasStackedBar__74017 {
     border-radius: 8px;
 }
 
-html.theme-dark .stackedBars_bdf0de {
+html.theme-dark .stackedBars__74017 {
     padding: 10px;
     margin: 20px 20px 10px 20px;
     background: #181a1d;
@@ -162,7 +162,7 @@ html.theme-dark .stackedBars_bdf0de {
 
 
 /* Glowing unread divider */
-.isUnread_c2654d::before {
+.isUnread__908e2::before {
     content: '';
     position: absolute;
     top: 0;
@@ -179,7 +179,7 @@ html.theme-dark .stackedBars_bdf0de {
     );
     filter: blur(8px);
 }
-.isUnread_c2654d::after {
+.isUnread__908e2::after {
     content: '';
     position: absolute;
     top: 0;
@@ -198,9 +198,9 @@ html.theme-dark .stackedBars_bdf0de {
 
 
 /* Hide invisible scrollbars */
-.scroller_c43953 {
+.scroller__629e4 {
     width: calc(100% + 8px);
 }
-.scroller_e2e187 {
+.scroller__36d07 {
     width: calc(100% + 16px);
 }
