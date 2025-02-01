@@ -1,38 +1,6 @@
-/* text color for youtube links */
-[href*="youtu.be"],
-[href*="youtube.com"] {
-  color: #d93530 !important;
-}
-
-/* hide message in the sidebar when using dark mode */
-  .theme-dark .sidebar_c48ade .content__99f8c:after {
-    color: rgba(255, 255, 255, 0) !important;
-    text-shadow: none !important;
-}
-
 /* realign background image */
 .bg__960e4 {
   background-position: var(--background-position, right);
-}
-
-/* Hide Nitro gift button */
-button[aria-label="Send a gift"] {
-  display: none;
-}
-
-/* Hide sticker picker button */
-button[aria-label="Open sticker picker"] {
-  display: none;
-}
-
-/* Hide super reaction button */
-div[aria-label="Add Super Reaction"] {
-  display: none;
-}
-
-/* Hide super reaction tab in emoji picker */
-button[id="super-reaction-picker-tab"] {
-  display: none;
 }
 
 /* Custom font for channel names */
@@ -53,27 +21,6 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
 .input__4f074 {
   font-family: var(--font-name) !important;
   font-weight: inherit !important;
-}
-
-/* Change the message in the messagebox when you're restricted from sending messages in that channel. */
-.innerDisabled_d0696b .placeholder__1b31f::before {
-  content: "Unfortunately, you can't chill in this channel.";
-}
-
-/* Improve steam link readability */
-[href*="store.steampowered.com"], [href*="https://s.team"], [href*="steamcommunity.com/"] {
-  color: #899db6 !important;
-}
-
-/* Make unread DM's highlighted based on accent color */
-.link__972a0:has(.highlighted__20a53), .modeUnreadImportant__2ea32:has(.mentionsBadge__933a1) {
-  border-left: 2px solid rgba(var(--accentcolor), 0.8);
-  background: linear-gradient(
-    90deg,
-    rgba(var(--accentcolor), 0.3),
-    rgba(var(--accentcolor), 0.2),
-    transparent
-  );
 }
 
 /* Remove outer margin & fix buttons */
@@ -106,23 +53,6 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
   padding: 5px 11px 6px 10px !important;
   margin-left: -14px !important;
   margin-top: -5px !important;
-}
-
-/* Hide nitro section of friends list */
-.link__972a0[href="/store"] {
-    display: none;
-}
-
-
-/* Hide shop section of friends list */
-.link__972a0[href="/shop"] {
-    display: none;
-}
-
-
-/* Hide "Quest" advertisements */
-.mask__0d616 {
-    display: none;
 }
 
 
