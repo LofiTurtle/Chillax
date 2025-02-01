@@ -23,17 +23,20 @@
 */
 
 /*chillax*/
-@import url('https://lofiturtle.github.io/Chillax/chillax.css');
+@import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/chillax.css');
+/* @import url("https://warrayquipsome.github.io/Chillax/chillax.css"); */
 
 /*removable addons*/
 /* @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css"); */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/IconPackEdited.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/AvatarOnlyMemberList.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/FolderRedesign.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/FriendGrid.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/HideAnnoyingElements.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/ColoredLinks.css");
 
 /*additional addons*/
 /*(remove the both * to use)*/
@@ -131,7 +134,7 @@
   /* input fields */
   --chillax-input-field: "Life is so much easier when you just take a moment to chill";
   /* input fields  when the channel is locked*/
-  --chillax-input-field-locked: "Life is so much easier when you just take a moment to chill";
+  --chillax-input-field-locked: "Unfortunately, you can't chill in this channel";
   /* typing indicator: when a single person is typing */
   --chillax-input-typing-indicator-one-person: "is smashing some buttons";
   /* typing indicator: when more than one person is typing */
