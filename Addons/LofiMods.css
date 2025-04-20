@@ -23,38 +23,6 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
   font-weight: inherit !important;
 }
 
-/* Remove outer margin & fix buttons */
-:root.theme-dark {
-  --window-margin: 0px !important;
-  --window-border-radius: 0px !important;
-}
-
-.theme-dark .winButtonClose__421ed,
-.theme-dark .winButtonMinMax__421ed:nth-child(3),
-.theme-dark .winButtonMinMax__421ed:nth-child(2n),
-.theme-dark .winButtonClose__421ed:hover,
-.theme-dark .winButtonMinMax__421ed:nth-child(3):hover,
-.theme-dark .winButtonMinMax__421ed:nth-child(2n):hover {
-  top: -4px !important;
-  right: 0px !important;
-  padding: 0px !important;
-  padding-inline: 10px !important;
-  margin: 0px !important;
-  border-radius: 0px 0px 0px 0px !important;
-}
-
-.theme-dark .winButtonMinMax__421ed:nth-child(2n) {
-  border-radius: 5px 0px 0px 5px !important;
-}
-
-.theme-dark .wordmark__421ed::before {
-  border-radius: 5px !important;
-  border-left: 0px !important;
-  padding: 5px 11px 6px 10px !important;
-  margin-left: -14px !important;
-  margin-top: -5px !important;
-}
-
 
 :root.theme-dark {
     --window-blur: 8px;
