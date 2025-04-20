@@ -1,6 +1,6 @@
 /* realign background image */
 .bg__960e4 {
-  background-position: var(--background-position, right);
+  background-position: var(--background-position, right) !important;
 }
 
 /* Custom font for channel names */
